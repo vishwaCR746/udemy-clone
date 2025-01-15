@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'gabarito', sans-serif;
+
+}
+
+.navbar {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid black 1px;
+    gap: 13px;
+    align-items: center;
+}
+
+.navbar__s1__title {
+    color: #a435f0;
+}
+
+.navbar__s2 {
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 74%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.navbar__s2 input {
+    border: none;
+    font-size: 18px;
+    width: 100%;
+
+}
+
+.navbar__s2 input:focus {
+    outline: none;
+}
+
+.navbar__s3 {
+    display: flex;
+    gap: 13px;
+    align-items: center;
+}
+
+.categories {
+    display: flex;
+    padding: 10px;
+    border-bottom: solid black 1px;
+    justify-content: space-around;
+}
+
+.categories p {
+    background-color: #a435f0;
+    color: white;
+    padding: 7px;
+    border-radius: 33px;
+}
+
+.sale-image img {
+    width: 100%;
+}
+
+.Recommended {
+    padding: 10px;
+}
+
+.Recommended__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.course-card {
+    width: 355px;
+
+}
+
+.course-card img {
+    height: 60%;
+    width: 100%;
+}
+
+.topics {
+    padding: 14px;
+}
+
+.topics__container {
+    display: flex;
+    gap: 11px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+
+.topics__container p {
+    border: solid rgb(240, 199, 199) 2px;
+    padding: 12px;
+    flex-grow: 1;
+    flex-basis: 28%;
+}
+
+.popular {
+    padding: 10px;
+}
+
+.popular__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.footer {
+    padding: 35px;
+    background-color: rgb(10, 10, 10);
+    color: white;
+}
+
+
+.footer__one {
+    display: flex;
+    gap: 17px;
+}
+
+.footer__one p {
+    margin: 20px;
+}
+
+.footer__two {
+    margin: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
